@@ -2,6 +2,7 @@
 
 # Índice
 - [Instalação e Configuração](#instalacao)
+- [Introdução](#introducao)
 
 
 
@@ -35,21 +36,55 @@
     Copy line Down <br>
     Shift+Alt+seta pra baixo
 
-  ## Gerenciamento de Pacotes
+<a id="introducao"></a>
 
-    ### Maneira Tradicional. Pip
+## Introdução
 
-      - Criando Ambiente Virtual
-        - Seleciona o local onde será criado o ambiente virtual
-        - python -m venv .venv
+  ### Comentários em Python
+    - Comentários em python: 
+      - `#`;
+      - Comentário simples, uma única linha.
+    - Docstring: 
+      - Possibilita multicomentario;
+      - """ """. A Docstring é lida pelo interpretador, porém não é executada.
+
+  ### Função Print
+    - A função print já tem alguns padrões para exibição da saída na tela
+      - Apresenta espaços entre argumentos não nomeados
+      - Apresenta quebra de linha por função
+    - É possivel alterar o separador
+      - print(12, 34, sep='-')
+        - 12-34
+      - print(12, 34, sep='*')  
+        - 12*34  
+    - Argumentos de quebra de linha
+      - print(12, 34, sep='-', end='##')
+      - print(56, 78, sep='*')  
+        - 12-34##56*78
+
+  ### Tipos de dados
+    - Python possui uma Dinâmica e Forte
+      - Tipagem Dinâmica - Detecta o tipo do dado sem a necessidade de declaração prévia. 
+      - Tipagem Forte    - 
+  
+  ### String
+[Arquivo Aula2.py](/curso-udemy/secao3/aula2.py)
+
+    - Aspas simples
+      - print('Robson "Luis"')
+    - Aspas duplas
+      - print("Robson 'Luis'")
+    - Escape
+      - print("Robson \"Luis\"")
+    - r
+      - print(r"Robson \"Luis\"")
+
+  ### Int e Float
 
 
 
-    ### Usando UV
-
-<a id="">
+<a id=""></a>
 
 ## 
 
 
-</a>
