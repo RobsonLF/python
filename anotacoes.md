@@ -211,6 +211,17 @@ Javascript é uma linguagem de tipagem dinamica e fraca
     - r
       - print(r"Robson \"Luis\"")
 
-### Int e Float
+### Listas
 
-<a id=""></a>
+* Append - Add itens ao final da lista - lista.append("item")
+* Pop - Remove itens do final da lista - lista.pop()
+* Insert - Inseri o valor em um indice determinado - lista.insert(indice,valor)
+
+### Concatenar Listas
+
+```Python
+lista_a = [1,2,3]
+lista_b = [4,5,6]
+lista_c = lista_a + lista_b
+lista_a.extend(lista_b)
+```
