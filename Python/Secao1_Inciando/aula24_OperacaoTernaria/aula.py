@@ -1,0 +1,1 @@
+variavel = 'Valor' if False else 'Outro valor'
