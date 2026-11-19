@@ -1,6 +1,9 @@
 
 
-def func1():
-    print('teste')
+def saudacao(nome = 'sem nome'):
+    print(f'Olá { nome }')
 
-func1()
+saudacao('Robson')
+saudacao('Luis')
+saudacao('Ferreira')
+saudacao('')
