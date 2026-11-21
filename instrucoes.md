@@ -6,7 +6,7 @@
 
 2 - Ativa o ambiente virtual
 
-	2.1 - .venv\Scripts\activate.ps1
+	2.1 - .\venv\Scripts\activate.ps1
 
 3 - Instala o Django
 
@@ -19,10 +19,6 @@
 5 - Iniciar o server
 
 	5.1 - python manage.py runserver
-
-
-
-
 
 1.Criar o ambiente virtual
  1.1 - python -m venv venv
